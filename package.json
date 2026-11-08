@@ -1,0 +1,23 @@
+{
+  "name": "obra-facil-pix-manual",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs",
+    "build:web": "node build-web.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "1.31.0",
+    "jspdf": "4.2.1",
+    "@noble/hashes": "2.4.0",
+    "@noble/ciphers": "2.4.0"
+  }
+}
